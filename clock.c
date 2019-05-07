@@ -5,7 +5,7 @@ int integer;
 int number;
 
     do {
-         number = get_int("Enter time: ");
+         number = get_int("Enter time: "); //Ask the user to enter a time
          integer = get_int("Enter Random Number: ");
         if (number >= 1 && number <= 12) {
             int hours =  (number + integer) % 12;
